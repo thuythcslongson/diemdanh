@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import type { AttendanceRecord } from './types';
-import Header from './components/Header';
-import AttendanceForm from './components/AttendanceForm';
-import ReportGenerator from './components/ReportGenerator';
-import { getAttendanceRecords, saveAttendanceRecord } from './services/apiService';
+import type { AttendanceRecord } from './types.ts';
+import Header from './components/Header.tsx';
+import AttendanceForm from './components/AttendanceForm.tsx';
+import ReportGenerator from './components/ReportGenerator.tsx';
+import { getAttendanceRecords, saveAttendanceRecord } from './services/apiService.ts';
 
 const App: React.FC = () => {
   const [attendanceRecords, setAttendanceRecords] = useState<AttendanceRecord[]>([]);
