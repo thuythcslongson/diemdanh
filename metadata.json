@@ -1,0 +1,5 @@
+{
+  "name": "Hệ thống Điểm danh Học sinh",
+  "description": "Một ứng dụng web để giáo viên điểm danh học sinh, theo dõi sĩ số và xuất báo cáo thống kê. Tích hợp AI để tạo báo cáo tổng kết.",
+  "requestFramePermissions": []
+}
